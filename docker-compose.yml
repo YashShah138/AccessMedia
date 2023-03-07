@@ -1,11 +1,11 @@
 version: '3'
 services:
   web:
-    image: java_springv1_8679
+    image: java_springv1_9000
     restart: on-failure
     build: .
     ports:
-      - "8679:8679"
+      - "9000:9000"
     volumes:
       - persistent_volume:/app/volumes
 volumes:
